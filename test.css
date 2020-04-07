@@ -1,0 +1,19 @@
+body{
+    /*background: #b2aa9d;*/
+}
+a{
+    outline: 0;
+}
+.mapdiv{
+    width: 800px;
+    margin: auto;
+}
+.mapdiv path{
+    fill:red;
+    stroke: lightgreen;
+    stroke-width: 2px;
+    transition: fill 0.3s;
+}
+.mapdiv path:hover{
+    fill:blue;
+}
